@@ -5,7 +5,6 @@ import Tentang from './pages/Tentang'
 import NotFound from './pages/NotFound'
 function App() {
   return (
-    <div>
       <Router>
         <Routes>
           <Route path="/" element={<Homepage/>} />
@@ -13,7 +12,6 @@ function App() {
           <Route path="*" element={<NotFound/>} />
         </Routes>
       </Router>
-    </div>
   )
 }
 
