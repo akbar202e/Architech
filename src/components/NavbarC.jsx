@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import logo from '../assets/ArchitechLogo.png';
-import './style.css';
 
 const NavbarC = () => {
   return (
