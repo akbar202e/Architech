@@ -1,0 +1,41 @@
+:root{
+    --mainColor:#735F4D;
+    --secColor:#B1907F;
+    --thirdColor:#d5b599;
+    --lightText:#fcfcfc;
+    --darkText:#2b2b2b;
+}
+
+#section-one{
+    height: max-content;
+    margin: 0;
+}
+
+.section-card{
+    background-color:var(--thirdColor);
+    width: 552.51;
+    height: 962.93;
+    overflow: hidden;
+    border-radius: 6.188rem;
+    margin: 50px;
+    
+}
+.section-card h3{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.section-card button{
+    height: 48px;
+    width: 239px;
+    font-weight: 700;
+}
+
+
+.section-card img{
+    filter:drop-shadow(-1px -1px 5px #D9C2AD);
+    width: 110%;
+}
+
+
