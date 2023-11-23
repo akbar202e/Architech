@@ -3,15 +3,15 @@ import { Button, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import NavbarC from '../components/NavbarC';
 import FooterC from '../components/FooterC';
-import tumb from '../assets/homeTumbnail.png';
-import two1 from '../assets/two1.png';import two2 from '../assets/two2.png';
-import two3 from '../assets/two3.png';import two4 from '../assets/two4.png';
-import two5 from '../assets/two5.png';import two6 from '../assets/two6.png';
-import card1 from '../assets/card1.png';import card2 from '../assets/card2.png';
-import three1 from '../assets/three1.png';
-import four1 from '../assets/four1.png';import four2 from '../assets/four2.png';
-import four3 from '../assets/four3.png';import four4 from '../assets/four4.png';
-import fiveBG from '../assets/fiveBG.png';
+import tumb from '../assets/homepage/homeTumbnail.png';
+import two1 from '../assets/homepage/two1.png';import two2 from '../assets/homepage/two2.png';
+import two3 from '../assets/homepage/two3.png';import two4 from '../assets/homepage/two4.png';
+import two5 from '../assets/homepage/two5.png';import two6 from '../assets/homepage/two6.png';
+import card1 from '../assets/homepage/card1.png';import card2 from '../assets/homepage/card2.png';
+import three1 from '../assets/homepage/three1.png';
+import four1 from '../assets/homepage/four1.png';import four2 from '../assets/homepage/four2.png';
+import four3 from '../assets/homepage/four3.png';import four4 from '../assets/homepage/four4.png';
+import fiveBG from '../assets/homepage/fiveBG.png';
 import '../assets/css/home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
@@ -84,7 +84,7 @@ const Homepage = () => {
                     </div>
                 </div>
              </section>
-            <FooterC/>
+             <FooterC/>
         </div>
     );
 };
