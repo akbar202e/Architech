@@ -1,0 +1,253 @@
+.pelaksanaan {
+    background-color: #ffffff80;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .pelaksanaan .div {
+    background-color: #ffffff80;
+    height: 2700px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .pelaksanaan .overlap {
+    height: 946px;
+    left: 117px;
+    position: absolute;
+    top: 279px;
+    width: 1233px;
+  }
+  
+  .pelaksanaan .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    height: 39px;
+    left: 1023px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 763px;
+    width: 160px;
+  }
+  
+  .pelaksanaan .rectangle {
+    background-color: #d9c2ad;
+    border-radius: 59px;
+    height: 654px;
+    left: 397px;
+    position: absolute;
+    top: 280px;
+    width: 837px;
+  }
+  
+  .pelaksanaan .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 60px;
+    left: 795px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 325px;
+  }
+  
+  .pelaksanaan .group {
+    height: 421px;
+    left: 727px;
+    position: absolute;
+    top: 439px;
+    width: 458px;
+  }
+  
+  .pelaksanaan .overlap-group {
+    background-color: #b1907f;
+    border-radius: 37px;
+    height: 421px;
+    position: relative;
+    width: 456px;
+  }
+  
+  .pelaksanaan .penyampaian-data-dan {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 324px;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 54px;
+    width: 408px;
+  }
+  
+  .pelaksanaan .img {
+    height: 848px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 98px;
+    width: 699px;
+  }
+  
+  .pelaksanaan .rectangle-2 {
+    background-color: #b1907f;
+    border: 3px solid;
+    border-radius: 112px;
+    height: 102px;
+    left: 149px;
+    position: absolute;
+    top: 0;
+    width: 881px;
+  }
+  
+  .pelaksanaan .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    height: 48px;
+    left: 171px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 26px;
+  }
+  
+  .pelaksanaan .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    height: 39px;
+    left: 1130px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3767px;
+    width: 160px;
+  }
+  
+  .pelaksanaan .overlap-2 {
+    height: 894px;
+    left: 103px;
+    position: absolute;
+    top: 1343px;
+    width: 1296px;
+  }
+  
+  .pelaksanaan .rectangle-3 {
+    background-color: #d9c2ad;
+    border-radius: 56px;
+    height: 874px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 1244px;
+  }
+  
+  .pelaksanaan .minimalist-brown {
+    height: 693px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 434px;
+  }
+  
+  .pelaksanaan .minimalist-brown-2 {
+    height: 615px;
+    left: 872px;
+    position: absolute;
+    top: 279px;
+    width: 424px;
+  }
+  
+  .pelaksanaan .overlap-wrapper {
+    height: 482px;
+    left: 160px;
+    position: absolute;
+    top: 193px;
+    width: 458px;
+  }
+  
+  .pelaksanaan .div-wrapper {
+    background-color: #b1907f;
+    border-radius: 41px;
+    height: 482px;
+    position: relative;
+    width: 456px;
+  }
+  
+  .pelaksanaan .survei-lokasi-ke {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 392px;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 39px;
+    width: 424px;
+  }
+  
+  .pelaksanaan .overlap-group-wrapper {
+    height: 482px;
+    left: 658px;
+    position: absolute;
+    top: 193px;
+    width: 458px;
+  }
+  
+  .pelaksanaan .p {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 412px;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 39px;
+    width: 383px;
+  }
+  
+  .pelaksanaan .rectangle-4 {
+    background-color: #b1907f;
+    border-radius: 70px;
+    height: 70px;
+    left: 432px;
+    position: absolute;
+    top: 746px;
+    width: 379px;
+  }
+  
+  .pelaksanaan .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    height: 54px;
+    left: 464px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 754px;
+  }

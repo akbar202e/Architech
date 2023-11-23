@@ -11,13 +11,14 @@
   .Homepage{
     font-family: 'Poppins', sans-serif;
     color:var(--lightText);
+    overflow-x: hidden;
 }
   #sect-one{
     margin: 0;
     padding: 20px;
     background-color: #735F4D;
     height: 40rem;
-    background-image: url(../homeTumbnail.png);
+    background-image: url(../homepage/homeTumbnail.png);
     background-repeat:no-repeat;
     background-position: right bottom;
     background-size:80vb;
@@ -183,3 +184,23 @@
     top:0;
     right: 5rem;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color:var(--mainColor);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:var(--secColor); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:var(--thirdColor); 
+  }

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 import logo from '../assets/ArchitechLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-const FooterC = () => <footer className="page-footer pt-5 px-5" style={{ backgroundColor: '#735F4D' }}>
+const FooterC = () => <footer className="page-footer pt-5 px-5" style={{ backgroundColor: '#735F4D'}}>
     <div className="container-fluid text-md-left px-5">
-        <div className="row">
+        <div className="row text-light">
             <div className="col-md-2 mt-md-0 mt-3">
                 <img src={logo} alt="" />
             </div>
@@ -59,7 +59,7 @@ const FooterC = () => <footer className="page-footer pt-5 px-5" style={{ backgro
         </div>
     </div>
 
-    <div className="footer-copyright text-center py-3">Hak Cipta © 2023-
+    <div className="footer-copyright text-center py-3 text-light">Hak Cipta © 2023-
         <Link to='/' className="text-decoration-none text-light">Architech.com</Link>
     </div>
 

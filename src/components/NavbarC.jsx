@@ -13,7 +13,7 @@ const NavbarC = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-center flex-grow-1 gap-4">
-            <Nav.Link as={Link} to="/about">Beranda</Nav.Link>
+            <Nav.Link as={Link} to="/">Beranda</Nav.Link>
             <NavDropdown title="Tentang Kami" id="collapsible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/about">About Architech</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -22,28 +22,21 @@ const NavbarC = () => {
             <Nav.Link as={Link} to="/about">Layanan</Nav.Link>
             <NavDropdown title="Portofolio" id="collapsible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/about">Minimalis</NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/about">Klasik</NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/about">Industrial</NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/about">Interior</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item as={Link} to="/portofolio">Selengkapnya</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Prosedur" id="collapsible-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/about">Action</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/about">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/about">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/about">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/desain-arsi">Desain Arsitektur</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/desain-inter">Desain Interior</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/pelaksanaan">Pembangunan</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav style={{gap:'5px'}}>
             <hr />
-            <Button as={Link} to='/login' type="submit" variant='outline-light'>Daftar</Button>
+            <Button as={Link} to='/sign' type="submit" variant='outline-light'>Daftar</Button>
             <Button as={Link} to='/login' type="submit" variant='secondary' style={{backgroundColor:'#B1907F'}}>Masuk</Button>
           </Nav>
         </Navbar.Collapse>
