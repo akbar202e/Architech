@@ -23,7 +23,13 @@
     height: 50px;
     width: 700px;
     margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
 }
+
 
 Button {
   display: flex;

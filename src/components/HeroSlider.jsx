@@ -45,6 +45,7 @@ const dotStyle = {
   margin: "0 3px",
   cursor: "pointer",
   fontSize: "20px",
+  
 };
 
 const slidesContainerStyles = {

@@ -16,6 +16,7 @@ function Minimalis  () {
     width: "500px",
     height: "280px",
     margin: "auto",
+    marginBottom: "40px"
   };
   return (
     <div>
@@ -26,9 +27,12 @@ function Minimalis  () {
               <HeroSlider slides={slides} parentWidth={500} />
             </div>
             <div className="content-logo">
+            <i class="bi bi-arrows-angle-expand text-white"> 2KM</i>
+            <i class="bi bi-bounding-box text-white"> 10M X 20M</i>
+            <i class="bi bi-geo-alt-fill text-white"> Kota Semarang</i>
             </div>
-            <Button className='border-0 px-3 py-1 fs-6 rounded-5' style={{background:'#B1907F'}}>Selengkapnya</Button>
-          </div>
+              <Button className='border-0 px-3 py-1 fs-6 rounded-5' style={{background:'#B1907F'}}>Selengkapnya</Button>
+            </div>
       </div>
     </div>
   )
