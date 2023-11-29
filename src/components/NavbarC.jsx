@@ -22,13 +22,13 @@ const NavbarC = () => {
             </NavDropdown>
             <Nav.Link as={Link} to="/about">Layanan</Nav.Link>
             <NavDropdown title="Portofolio" id="collapsible-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/about">Minimalis</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Minimalis">Minimalis</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/about">Klasik</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Klasik">Klasik</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/about">Industrial</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Industrial">Industrial</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/about">Interior</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Interior">Interior</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Prosedur" id="collapsible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/about">Action</NavDropdown.Item>
