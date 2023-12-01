@@ -16,7 +16,7 @@ import '../assets/css/Portofolio.css';
 
 function Portofolio() {
   return (
-    <div>
+    <div className="portofolio">
         <NavbarC/>
         <section id="section-one">
                 <div className="container py-5 d-flex flex-wrap gap-4 justify-content-center">

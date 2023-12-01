@@ -1,6 +1,5 @@
 .desain-arsitektur {
     background-color: #ffffff80;
-    border: 2px solid greenyellow;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,7 +37,6 @@
   
   .desain-arsitektur .rectangle {
     background-color: #b1907f;
-    border: 3px solid;
     border-radius: 112px;
     height: 102px;
     left: 217px;

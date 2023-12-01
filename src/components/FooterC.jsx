@@ -5,14 +5,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 const FooterC = () => <footer className="page-footer pt-5 px-5" style={{ backgroundColor: '#735F4D'}}>
     <div className="container-fluid text-md-left px-5">
-        <div className="row text-light">
-            <div className="col-md-2 mt-md-0 mt-3">
+        <div className="footerFlex text-light">
+            <div className="footerContent" align='center'>
                 <img src={logo} alt="" />
             </div>
 
             <hr className="clearfix w-100 d-md-none pb-0"/>
 
-            <div className="col-md-2 mb-md-0 mb-3">
+            <div className="footerContent ">
                 <h5 className="text-uppercase">LAYANAN</h5>
                 <ul className="list-unstyled mt-3">
                     <li><Link to='/about' className="text-decoration-none text-light">Arsitek</Link></li>
@@ -20,7 +20,7 @@ const FooterC = () => <footer className="page-footer pt-5 px-5" style={{ backgro
                 </ul>
             </div>
 
-            <div className="col-md-2 mb-md-0 mb-3">
+            <div className="footerContent ">
                 <h5 className="text-uppercase">PORTOFOLIO</h5>
                 <ul className="list-unstyled mt-3">
                     <li><Link to='/about' className="text-decoration-none text-light">Minimalis</Link></li>
@@ -29,14 +29,14 @@ const FooterC = () => <footer className="page-footer pt-5 px-5" style={{ backgro
                     <li><Link to='/about' className="text-decoration-none text-light">Interior</Link></li>
                 </ul>
             </div>
-            <div className="col-md-2 mb-md-0 mb-3">
+            <div className="footerContent ">
                 <h5 className="text-uppercase">TENTANG KAMI</h5>
                 <ul className="list-unstyled mt-3">
                     <li><Link to='/about' className="text-decoration-none text-light">Tentang Kami</Link></li>
                     <li><Link to='/about' className="text-decoration-none text-light">Kontak</Link></li>
                 </ul>
             </div>
-            <div className="col-md-4 mb-md-0 mb-3 text-center">
+            <div className="footerContent  text-center">
                 <h5 className="text-uppercase">HUBUNGI KAMI</h5>
                 <ul className="mt-4 list-unstyled text-light d-flex justify-content-center">
                     <li>

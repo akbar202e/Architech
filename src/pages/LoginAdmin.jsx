@@ -5,7 +5,7 @@ import logo from '../assets/ArchitechLogo.png';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
-const Login = () => {
+const LoginAdmin = () => {
     return (
         <div>
             <section id="login">
@@ -16,18 +16,17 @@ const Login = () => {
                     <div className="loginCard p-4 text-center">
                         <div className="loginForm d-flex flex-column gap-4 p-5">
                             <img src={logo}/>
-                            <h1 className='text-light fw-bold'>Masuk</h1>
+                            <h1 className='text-light fw-bold'>Admin</h1>
                             <input type="text" placeholder='Email'/>
                             <input type="password" placeholder='Password'/>
-                            <Link to='/'><Button className='submit border-0 px-5 py-1 fs-5 rounded-5' style={{background:'#B1907F'}}>Masuk</Button></Link>
-                            <p>Belum Punya Akun? <Link to='/sign' style={{textDecoration:'none', color:'#735F4D', fontWeight:'bold'}}>Daftar</Link></p>
+                            <Link to='/dashboard'><Button className='submit border-0 px-5 py-1 fs-5 rounded-5' style={{background:'#B1907F'}}>Masuk</Button></Link>
                         </div>
                     </div>
                 </div>
-                <Link to='/admin'><Button className='adminButton border-0 px-2 py-1 rounded-2' style={{background:'#B1907F'}}>Admin</Button></Link>
+                <Link to='/login'><Button className='adminButton border-0 px-2 py-1 rounded-2' style={{background:'#B1907F'}}>User</Button></Link>
             </section>
         </div>
     );
 }
 
-export default Login;
+export default LoginAdmin;

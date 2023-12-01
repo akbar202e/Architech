@@ -1,0 +1,210 @@
+:root {
+    /* // % OR vw for responsive window resizing! */
+    --landscape-width: 25;
+    --portrait-width: 80vw;
+    --header-height: 4rem;
+    --secs: 0.4s;
+    --mainColor: #735F4D;
+    --secColor:#B1907F;
+    --thirdColor: #D9C2AD;
+    --lightText:#fcfcfc;
+    --darkText:#2b2b2b;
+  }
+  
+  body {
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    /* // Disable scrolling on body */
+  }
+  
+  #layout {
+    /* // Flexbox definition */
+    display: flex;
+    /* // Disable scrolling on layout */
+    overflow: hidden;
+  
+    /* Style in common for sidebars and main area: */
+    .header {
+      position: relative;
+      height: var(--header-height);
+      /* // Horizontal center */
+      text-align: center;
+      .title {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 25%;
+        color: var(--lightText);
+      }
+    }
+    .content {
+      overflow: auto;
+      box-sizing: border-box;
+      height: calc(100vh - var(--header-height));
+      padding: 1rem;
+    }
+  }
+  
+  /* Main area specific style: */
+  #main {
+    background: var(--mainColor);
+    flex-grow: 1;
+    .header {
+      background: var(--mainColor);
+      @media (orientation: landscape) {
+        .title {
+          transition: left var(--secs), right var(--secs);
+          &.left-closed {
+            left: var(--header-height);
+          }
+          &.right-closed {
+            right: var(--header-height);
+          }
+        }
+      }
+    }
+  }
+  
+  /* Style in common for both sidebars: */
+  #left, #right {
+    transition: width var(--secs);
+    width: 0;
+    @media (orientation: landscape) {
+      &.open {
+        width: calc(1% * var(--landscape-width));
+      }
+      /* // <-- Landscape ONLY sidebars */
+    }
+    .icon {
+      position: fixed;
+      z-index: 10;
+      top:-5px;
+      width: var(--header-height);
+      height: var(--header-height);
+      line-height: var(--header-height);
+      font-size: var(--header-height);
+      text-align: center;
+      user-select: none;
+      cursor: pointer;
+    }
+    /* // <-- Portrait AND landscape! */
+    .sidebar {
+      transition: transform var(--secs);
+      @media (orientation: portrait) {
+        width: var(--portrait-width);
+      }
+      @media (orientation: landscape) {
+        width: calc(1vw * var(--landscape-width));
+      }
+      .header {
+        width: calc(100% - var(--header-height));
+      }
+    }
+  }
+  
+  /* Left sidebar specific style: */
+  #left {
+    z-index: 5;
+    .sidebar {
+      background: var(--mainColor);
+      /* // <-- Left portrait AND landscape! */
+      &.closed {
+        transform: translateX(-100%);
+      }
+      .header {
+        left: var(--header-height);
+      }
+    }
+  }
+  
+  /* Right sidebar specific style: */
+  #right {
+    display: none; /* Remove styles for the right sidebar */
+  }
+
+  .barProfile{
+    border-bottom: 3px solid var(--thirdColor);
+    height: max-content;
+    gap: 10px;
+  }
+
+  .barProfile span{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .barProfile span img{
+    height: 100%;
+    width: 100%;
+    object-fit:fill; 
+  }
+  .barProfile p{
+    font-weight: 500;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    color: var(--lightText);
+
+  }
+  .barSelect p{
+    height: 40px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+
+  .barSelect span{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .barSelect span img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+
+
+  .content2{
+    background-color:var(--secColor);
+    border-radius: 30px;
+  }
+
+  .content3{
+    background-color:var(--thirdColor);
+    height: max-content;
+    min-height: 5rem;
+  }
+
+  .content3img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content3img img{
+    width: 100%;
+    object-fit: contain;
+    
+  }
+
+  .content3text tr{
+    transition: 0.15s;
+  }
+
+  .content3text tr:hover{
+    background-color: var(--secColor);
+  }
+  .content3text td, .content3text th{
+    border: 2px solid var(--mainColor);
+  }
+  .content3text thead{
+    background-color:var(--secColor);
+  }

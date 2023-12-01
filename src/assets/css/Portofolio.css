@@ -6,6 +6,10 @@
     --darkText:#2b2b2b;
 }
 
+.portofolio{
+    font-family: 'Poppins', sans-serif;
+    color:var(--lightText);
+}
 #section-one{
     height: max-content;
     margin: 0;

@@ -19,7 +19,7 @@ const NavbarC = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/about">Contact US</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/about">Layanan</Nav.Link>
+            <Nav.Link as={Link} to="/layanan">Layanan</Nav.Link>
             <NavDropdown title="Portofolio" id="collapsible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/about">Minimalis</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/about">Klasik</NavDropdown.Item>

@@ -1,15 +1,18 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Login from './pages/Login'
-import Daftar from './pages/Daftar'
-import Homepage from './pages/Homepage'
-import Tentang from './pages/Tentang'
-import NotFound from './pages/NotFound'
-import DesainArsitektur from './pages/DesainArsitektur'
-import DesainInterior from './pages/DesainInterior'
-import Pelaksanaan from './pages/Pelaksanaan'
-import Portofolio from './pages/Portofolio'
-import NavbarC from './components/NavbarC'
+import Login from './pages/Login';
+import LoginAdmin from './pages/LoginAdmin'; import Daftar from './pages/Daftar'; 
+import Homepage from './pages/Homepage'; import Tentang from './pages/Tentang'; 
+import NotFound from './pages/NotFound'; import DesainArsitektur from './pages/DesainArsitektur'; 
+import DesainInterior from './pages/DesainInterior'; import Pelaksanaan from './pages/Pelaksanaan'; 
+import Portofolio from './pages/Portofolio'; import Layanan from './pages/Layanan'; 
+import Dashboard from './components/Dashboard'; import NavbarC from './components/NavbarC'; 
+import Dashboard2 from './pages/admin/Home'; import DataKategori from './pages/admin/DataKategori'; 
+import Home from './pages/admin/Home'; import DataProduk from './pages/admin/DataProduk'; 
+import DataCustomer from './pages/admin/DataCustomer'; import Transaksi from './pages/admin/Transaksi';
+import DataAdmin from './pages/admin/DataAdmin';
+import EditProfile from './pages/admin/EditProfile';
+
 function App() {
   return (
       <Router>
@@ -21,8 +24,19 @@ function App() {
           <Route path="/desain-inter" element={<DesainInterior/>} />
           <Route path="/pelaksanaan" element={<Pelaksanaan/>}/>
           <Route path="/portofolio" element={<Portofolio/>}/>
+          <Route path="/layanan" element={<Layanan/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/sign" element={<Daftar/>}/>
+          //admin pages
+          <Route path="/admin" element={<LoginAdmin/>}/>
+          <Route path="/dashboard" element={<Home/>}/>
+          <Route path="/kategori" element={<DataKategori/>}/>
+          <Route path="/produk" element={<DataProduk/>}/>
+          <Route path="/customer" element={<DataCustomer/>}/>
+          <Route path="/transaksi" element={<Transaksi/>}/>
+          <Route path="/profil-admin" element={<DataAdmin/>}/>
+          <Route path="/profil-edit" element={<EditProfile/>}/>
+
         </Routes>
       </Router>
   )

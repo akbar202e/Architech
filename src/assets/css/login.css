@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    position: relative;
 }
 
 .loginImg img{
@@ -54,7 +54,43 @@
     align-self: center;
 }
 
+.adminButton{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+.footerFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footerContent{
+    width: max-content;
+    padding: 5px;
+}
+
 @media only screen and (max-width: 1200px){
+    
+    .footerFlex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footerContent:nth-child(1){
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .footerContent:nth-child(6){
+        width: 100%;
+        padding-top: 2rem;
+        border-top: 1px solid rgb(148, 141, 127)
+    }
+    .footerContent{
+        width: 30%;
+    }
+
     #login{
         height: max-content;
     }
