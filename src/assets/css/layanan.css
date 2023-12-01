@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Titillium+Web:wght@300;400;700&display=swap');
+
+:root{
+    --mainColor:#735F4D;
+    --secColor:#B1907F;
+    --thirdColor:#d5b599;
+    --lightText:#fcfcfc;
+    --darkText:#2b2b2b;
+}
+.layanan{
+    font-family: 'Poppins', sans-serif;
+    color:var(--lightText);
+    overflow-x: hidden;
+}
+
+.layanan-card{
+    background-color:var(--secColor);
+    display: flex;
+    border-radius: 40px;
+}
+
+#arsitek-sect{
+    height: max-content;
+}
+
+.text-layanan{
+    width: 60%;
+    border-radius: 20px;
+}
+
+.text-layanan-desc{
+    background-color:var(--thirdColor);
+    border-top-left-radius: 30px;
+    border-end-start-radius: 30px;
+    height: 22rem;
+}
+
+.img-layanan{
+    width: 40%;
+    overflow: hidden;
+    height: 35rem;
+    border-radius: 20px;
+    border-radius: 30px;
+}
+
+.img-layanan:hover img{
+    margin-top: -6rem;
+}
+
+.img-layanan img{
+    width: 100%;
+    margin-top: -30px;
+    transition: 0.5s;
+}
+
+#kontraktorImg{
+    margin-top: -10rem;
+}
+
+.img-layanan:hover #kontraktorImg{
+    margin-top: -13rem;
+}
+
+@media only screen and (max-width: 1200px){
+    .img-layanan{
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .img-layanan img, #kontraktorImg{
+        margin: 0;
+    }
+    .img-layanan:hover img, .img-layanan:hover #kontraktorImg{
+        margin-top:0px;
+        transform:scale(1.15);
+    }
+}

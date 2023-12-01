@@ -6,6 +6,10 @@
     --darkText:#2b2b2b;
 }
 
+.portofolio{
+    font-family: 'Poppins', sans-serif;
+    color:var(--lightText);
+}
 #section-one{
     height: max-content;
     margin: 0;
@@ -18,7 +22,11 @@
     overflow: hidden;
     border-radius: 6.188rem;
     margin: 50px;
-    
+    transition: 0.3s;
+}
+.section-card:hover{
+    background-color:var(--secColor);
+    transform:skewY(10deg);
 }
 .section-card h3{
     color: white;
@@ -30,12 +38,15 @@
     height: 48px;
     width: 239px;
     font-weight: 700;
+    background-color:var(--secColor);
 }
 
+.section-card:hover button{
+    color: var(--darkText);
+    background-color:var(--thirdColor);
+}
 
 .section-card img{
     filter:drop-shadow(-1px -1px 5px #D9C2AD);
     width: 110%;
 }
-
-

@@ -7,16 +7,16 @@ import { Link } from "react-router-dom";
 import NavbarC from "../components/NavbarC"
 import FooterC from '../components/FooterC';
 
-import Porto1 from '../assets/Porto1.png';
-import Porto2 from '../assets/Porto2.png';
-import Porto3 from '../assets/Porto3.png';
-import Porto4 from '../assets/Porto4.png';
+import Porto1 from '../assets/portofolio/Porto1.png';
+import Porto2 from '../assets/portofolio/Porto2.png';
+import Porto3 from '../assets/portofolio/Porto3.png';
+import Porto4 from '../assets/portofolio/Porto4.png';
 
 import '../assets/css/Portofolio.css';
 
 function Portofolio() {
   return (
-    <div>
+    <div className="portofolio">
         <NavbarC/>
         <section id="section-one">
                 <div className="container py-5 d-flex flex-wrap gap-4 justify-content-center">
@@ -35,7 +35,7 @@ const SectionOne = (props) => {
   return (
       <div className="section-card d-flex flex-column pt-4" align="center">
           <h3 className='fw-bold'>{props.kategori}</h3>
-          <Link to='/about'><Button className='border-0 px-3 py-1 fs-6 rounded-5' style={{background:'#B1907F'}}>Selengkapnya</Button></Link>
+          <Link to='/about'><Button className='border-0 px-3 py-1 fs-6 rounded-5'>Selengkapnya</Button></Link>
           <img src={props.img}/>
       </div>
   );
