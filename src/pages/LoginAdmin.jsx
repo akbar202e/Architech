@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/css/login.css';
-import loginImg from '../assets/login/loginImg.png';
+import loginImg from '../assets/login/LoginImg.png';
 import logo from '../assets/ArchitechLogo.png';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
