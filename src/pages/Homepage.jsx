@@ -67,10 +67,10 @@ const Homepage = () => {
              </section>
              <section id="sect-four">
                 <div className="container py-5 d-flex flex-wrap gap-4 justify-content-center">
-                    <SectFourCard kategori='Minimalis' img={four1}/>
-                    <SectFourCard kategori='Klasik' img={four2}/>
-                    <SectFourCard kategori='Industrial' img={four3}/>
-                    <SectFourCard kategori='Interior' img={four4}/>
+                    <SectFourCard kategori='Minimalis' to='/minimalis' img={four1}/>
+                    <SectFourCard kategori='Klasik' to='/klasik' img={four2}/>
+                    <SectFourCard kategori='Industrial' to='/industrial' img={four3}/>
+                    <SectFourCard kategori='Interior' to='/interior' img={four4}/>
                 </div>
              </section>
              <section id="sect-five">
@@ -80,7 +80,7 @@ const Homepage = () => {
                         <h1>Architech</h1>
                         <p>Arsitek | Kontraktor</p>
                         <p>Jika kamu dapat memimpikannya Kita bisa membangunnya !</p>
-                        <Link to='/about'><Button className='shadow border-0 px-4 py-2 fs-4 rounded-5' style={{background:'#B1907F'}}>Konusltasi Disini !</Button></Link>
+                        <Link to='/layanan'><Button className='shadow border-0 px-4 py-2 fs-4 rounded-5' style={{background:'#B1907F'}}>Konusltasi Disini !</Button></Link>
                     </div>
                 </div>
              </section>
@@ -102,7 +102,7 @@ const SectFourCard = (props) => {
     return (
         <div className="sect-four-card d-flex flex-column pt-4" align="center">
             <h3 className='fw-bold'>{props.kategori}</h3>
-            <Link to='/about'><Button className='border-0 px-3 py-1 fs-6 rounded-5' style={{background:'#B1907F'}}>Selengkapnya</Button></Link>
+            <Link to={props.to}><Button className='border-0 px-3 py-1 fs-6 rounded-5' style={{background:'#B1907F'}}>Selengkapnya</Button></Link>
             <img src={props.img}/>
         </div>
     );

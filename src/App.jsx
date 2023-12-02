@@ -12,6 +12,10 @@ import Home from './pages/admin/Home'; import DataProduk from './pages/admin/Dat
 import DataCustomer from './pages/admin/DataCustomer'; import Transaksi from './pages/admin/Transaksi';
 import DataAdmin from './pages/admin/DataAdmin';
 import EditProfile from './pages/admin/EditProfile';
+import Minimalis from './pages/Minimalis';
+import Klasik from './pages/Klasik';
+import Interior from './pages/Interior';
+import Industrial from './pages/Industrial';
 
 function App() {
   return (
@@ -24,6 +28,10 @@ function App() {
           <Route path="/desain-inter" element={<DesainInterior/>} />
           <Route path="/pelaksanaan" element={<Pelaksanaan/>}/>
           <Route path="/portofolio" element={<Portofolio/>}/>
+          <Route path="/minimalis" element={<Minimalis/>}/>
+          <Route path="/klasik" element={<Klasik/>}/>
+          <Route path="/industrial" element={<Industrial/>}/>
+          <Route path="/interior" element={<Interior/>}/>
           <Route path="/layanan" element={<Layanan/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/sign" element={<Daftar/>}/>

@@ -3,9 +3,15 @@ import { Link } from 'react-router-dom';
 import { Container, Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import logo from '../assets/ArchitechLogo.png';
 
+const Styles = {
+  fontFamily: 'Poppins , sans-serif',
+  color:'var(--lightText)',
+  backgroundColor: '#735F4D'
+};
+
 const NavbarC = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: '#735F4D' }} data-bs-theme="dark">
+    <Navbar collapseOnSelect expand="lg" style={Styles} data-bs-theme="dark">
       <Container>
         <Navbar.Brand as={Link} to="/about">
           <img src={logo} alt="" />
@@ -21,10 +27,10 @@ const NavbarC = () => {
             </NavDropdown>
             <Nav.Link as={Link} to="/layanan">Layanan</Nav.Link>
             <NavDropdown title="Portofolio" id="collapsible-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/about">Minimalis</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/about">Klasik</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/about">Industrial</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/about">Interior</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/minimalis">Minimalis</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/klasik">Klasik</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/industrial">Industrial</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/interior">Interior</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/portofolio">Selengkapnya</NavDropdown.Item>
             </NavDropdown>

@@ -5,6 +5,7 @@ import arsitekImg from '../assets/layanan/arsitekImg.png'
 import kontraktorImg from '../assets/layanan/kontraktorImg.png'
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
+import FooterC from '../components/FooterC';
 const Layanan = () => {
     return (
         <div className='layanan'>
@@ -38,6 +39,7 @@ const Layanan = () => {
                     </div>
                 </div>
             </section>
+            <FooterC/>
         </div>
     );
 }

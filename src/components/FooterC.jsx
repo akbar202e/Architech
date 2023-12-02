@@ -15,18 +15,18 @@ const FooterC = () => <footer className="page-footer pt-5 px-5" style={{ backgro
             <div className="footerContent ">
                 <h5 className="text-uppercase">LAYANAN</h5>
                 <ul className="list-unstyled mt-3">
-                    <li><Link to='/about' className="text-decoration-none text-light">Arsitek</Link></li>
-                    <li><Link to='/about' className="text-decoration-none text-light">Kontaktor</Link></li>
+                    <li><Link to='/layanan' className="text-decoration-none text-light">Arsitek</Link></li>
+                    <li><Link to='/layanan' className="text-decoration-none text-light">Kontaktor</Link></li>
                 </ul>
             </div>
 
             <div className="footerContent ">
                 <h5 className="text-uppercase">PORTOFOLIO</h5>
                 <ul className="list-unstyled mt-3">
-                    <li><Link to='/about' className="text-decoration-none text-light">Minimalis</Link></li>
-                    <li><Link to='/about' className="text-decoration-none text-light">Klasik</Link></li>
-                    <li><Link to='/about' className="text-decoration-none text-light">Industrial</Link></li>
-                    <li><Link to='/about' className="text-decoration-none text-light">Interior</Link></li>
+                    <li><Link to='/minimalis' className="text-decoration-none text-light">Minimalis</Link></li>
+                    <li><Link to='/klasik' className="text-decoration-none text-light">Klasik</Link></li>
+                    <li><Link to='/industrial' className="text-decoration-none text-light">Industrial</Link></li>
+                    <li><Link to='/interior' className="text-decoration-none text-light">Interior</Link></li>
                 </ul>
             </div>
             <div className="footerContent ">
