@@ -35,6 +35,13 @@
     border-top-left-radius: 30px;
     border-end-start-radius: 30px;
     height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-layanan-desc p{
+    font-size: 1.5rem;
 }
 
 .img-layanan{
@@ -42,8 +49,10 @@
     width: 40%;
     overflow: hidden;
     height: 35rem;
-    border-radius: 20px;
     border-radius: 30px;
+    position: relative;
+    justify-self: end;
+    align-self:end;
 }
 
 .img-layanan:hover img{
@@ -56,6 +65,16 @@
     transition: 0.5s;
 }
 
+.img-desc{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background: var(--darkText);
+    width:100%;
+    justify-content: center;
+    padding: 10px;
+    height: 7vh;
+}
 #kontraktorImg{
     margin-top: -10rem;
 }
@@ -64,17 +83,34 @@
     margin-top: -13rem;
 }
 
+#buttonLayanan{
+    font-size: 1.3rem;
+}
 @media only screen and (max-width: 1200px){
     .img-layanan{
-        height: 100%;
+        height: 16rem;
         border-radius: 10px;
     }
 
+    .text-layanan-desc{
+        overflow: hidden;
+        border-radius: 30px;
+        margin-right:0.3rem;
+        padding: 1rem;
+    }
+
+    .text-layanan-desc p{
+        font-size: 80%;
+    }
     .img-layanan img, #kontraktorImg{
         margin: 0;
     }
     .img-layanan:hover img, .img-layanan:hover #kontraktorImg{
         margin-top:0px;
         transform:scale(1.15);
+    }
+
+    #buttonLayanan{
+        font-size: 10px;
     }
 }
