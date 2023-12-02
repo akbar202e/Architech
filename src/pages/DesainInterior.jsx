@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import interior from "../assets/desainInterior/rectangle-496.png";
 import hiasan1 from "../assets/desainInterior/minimalist-brown-tone-ink-background-wallpaper-image-for-free-do.png";
 import hiasan2 from "../assets/desainInterior/minimalist-brown-tone-ink-background-wallpaper-image-for-free-do-1.png";
-import "../assets/css/interior.css";
+import "../assets/css/DesainInterior.css";
 import FooterC from "../components/FooterC";
 
 const DesainInterior = () => {

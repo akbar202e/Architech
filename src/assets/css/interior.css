@@ -29,12 +29,3 @@
     align-items: center;
     font-weight: 600;
 }
-
-
-Button {
-  display: flex;
-  border-style: none;
-  margin: 0 auto;
-  background-color: #b1907f;
-  font-weight: 900;
-}
