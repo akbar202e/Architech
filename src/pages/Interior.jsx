@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSlider from '../components/HeroSlider';
 import { Button } from 'react-bootstrap';
-import '../assets/css/Interior.css'
+import '../assets/css/interior.css'
 import NavbarC from '../components/NavbarC';
 import m1 from '../assets/portofolio/interior/int1.png';
 import m2 from '../assets/portofolio/interior/int2.png';
