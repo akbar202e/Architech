@@ -1,0 +1,286 @@
+.desain-interior {
+    background-color: #ffffff80;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desain-interior .div {
+    background-color: #ffffff80;
+    height: 2700px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .desain-interior .overlap {
+    height: 823px;
+    left: 140px;
+    position: absolute;
+    top: 390px;
+    width: 1210px;
+  }
+  
+  .desain-interior .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    height: 39px;
+    left: 1000px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 652px;
+    width: 160px;
+  }
+  
+  .desain-interior .rectangle {
+    background-color: #d9c2ad;
+    border-radius: 59px;
+    height: 654px;
+    left: 373px;
+    position: absolute;
+    top: 169px;
+    width: 837px;
+  }
+  
+  .desain-interior .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 60px;
+    left: 771px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 214px;
+  }
+  
+  .desain-interior .group {
+    height: 421px;
+    left: 704px;
+    position: absolute;
+    top: 328px;
+    width: 458px;
+  }
+  
+  .desain-interior .overlap-group {
+    background-color: #b1907f;
+    border-radius: 37px;
+    height: 421px;
+    position: relative;
+    width: 456px;
+  }
+  
+  .desain-interior .penyampaian-data-dan {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 251px;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 54px;
+    width: 408px;
+  }
+  
+  .desain-interior .img {
+    height: 823px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 670px;
+  }
+  
+  .desain-interior .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    height: 39px;
+    left: 1130px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3767px;
+    width: 160px;
+  }
+  
+  .desain-interior .overlap-2 {
+    height: 894px;
+    left: 103px;
+    position: absolute;
+    top: 1343px;
+    width: 1296px;
+  }
+  
+  .desain-interior .rectangle-2 {
+    background-color: #d9c2ad;
+    border-radius: 56px;
+    height: 874px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 1244px;
+  }
+  
+  .desain-interior .minimalist-brown {
+    height: 693px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 434px;
+  }
+  
+  .desain-interior .minimalist-brown-2 {
+    height: 615px;
+    left: 872px;
+    position: absolute;
+    top: 279px;
+    width: 424px;
+  }
+  
+  .desain-interior .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 60px;
+    left: 696px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 79px;
+  }
+  
+  .desain-interior .overlap-wrapper {
+    height: 482px;
+    left: 160px;
+    position: absolute;
+    top: 193px;
+    width: 458px;
+  }
+  
+  .desain-interior .div-wrapper {
+    background-color: #b1907f;
+    border-radius: 41px;
+    height: 482px;
+    position: relative;
+    width: 456px;
+  }
+  
+  .desain-interior .pra-desain-atau {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 326px;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 52px;
+    width: 374px;
+  }
+  
+  .desain-interior .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 60px;
+    left: 246px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 79px;
+  }
+  
+  .desain-interior .overlap-group-wrapper {
+    height: 482px;
+    left: 658px;
+    position: absolute;
+    top: 193px;
+    width: 458px;
+  }
+  
+  .desain-interior .pembayaran-termin-ke {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    height: 329px;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+    width: 383px;
+  }
+  
+  .desain-interior .rectangle-3 {
+    background-color: #b1907f;
+    border-radius: 70px;
+    height: 70px;
+    left: 432px;
+    position: absolute;
+    top: 746px;
+    width: 379px;
+  }
+  
+  .desain-interior .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    height: 54px;
+    left: 464px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 754px;
+  }
+  
+  .desain-interior .group-2 {
+    height: 102px;
+    left: 328px;
+    position: absolute;
+    top: 275px;
+    width: 752px;
+  }
+  
+  .desain-interior .overlap-3 {
+    background-color: #b1907f;
+    border-radius: 112px;
+    height: 102px;
+    position: relative;
+    width: 750px;
+  }
+  
+  .desain-interior .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    height: 54px;
+    left: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+  }
