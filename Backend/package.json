@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node ./router/index.js",
     "test": "npm --watch index.js",
     "dev": "nodemon index.js"
   },
