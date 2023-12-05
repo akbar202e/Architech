@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Titillium+Web:wght@300;400;700&display=swap");
+
+:root {
+  --mainColor: #735f4d;
+  --secColor: #b1907f;
+  --thirdColor: #d5b599;
+  --lightText: #fcfcfc;
+  --darkText: #2b2b2b;
+}
+
+#contact {
+  padding-top: 25rem;
+  padding-bottom: 25rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginImg3 img {
+  width: 27rem;
+  margin-right: 40px;
+  float: right;
+}
+
+.loginCard3 {
+  margin-top: 25px;
+  width: 25rem;
+  background-color: var(--secColor);
+  border-radius: 46px;
+  height: 30rem;
+  margin-bottom: 35px;
+}
+
+.loginForm3 {
+  height: 27rem;
+  background-color: var(--thirdColor);
+  border-radius: 30px;
+}
+
+.loginForm3 input,
+textarea {
+  border-radius: 50px;
+  border: none;
+  padding: 4px;
+  text-align: center;
+}
+
+.loginForm3 img {
+  width: 45%;
+  align-self: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  #login {
+    height: max-content;
+  }
+
+  #loginContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .loginImg3 img {
+    width: 25rem;
+    align-self: center;
+  }
+
+  .loginCard3 {
+    width: 100%;
+  }
+}

@@ -16,6 +16,9 @@ import Minimalis from './pages/Minimalis';
 import Klasik from './pages/Klasik';
 import Interior from './pages/Interior';
 import Industrial from './pages/Industrial';
+import Profile from './pages/Profile';
+import UserEdit from './pages/EditProfile';
+import Kontak from './pages/Kontak';
 
 function App() {
   return (
@@ -33,8 +36,11 @@ function App() {
           <Route path="/industrial" element={<Industrial/>}/>
           <Route path="/interior" element={<Interior/>}/>
           <Route path="/layanan" element={<Layanan/>}/>
+          <Route path="/kontak" element={<Kontak/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/sign" element={<Daftar/>}/>
+          <Route path="/profil" element={<Profile/>}/>
+          <Route path="/edit" element={<UserEdit/>}/>
           //admin pages
           <Route path="/admin" element={<LoginAdmin/>}/>
           <Route path="/dashboard" element={<Home/>}/>

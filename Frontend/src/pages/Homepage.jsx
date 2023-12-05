@@ -16,10 +16,11 @@ import '../assets/css/home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import NavbarCLogin from '../components/NavbarCLogin';
 const Homepage = () => {
     return (
         <div className='Homepage'>
-            <NavbarC/>
+            <NavbarCLogin/>
             <section id='sect-one'>
                 <div className='container'>
                     <div className="sect-one-text pt-5">

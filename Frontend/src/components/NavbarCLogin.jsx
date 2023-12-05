@@ -2,14 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 import logo from '../assets/ArchitechLogo.png';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 const Styles = {
   fontFamily: 'Poppins , sans-serif',
   color:'var(--lightText)',
   backgroundColor: '#735F4D'
 };
 
-const NavbarC = () => {
+const NavbarCLogin = () => {
   return (
     <Navbar collapseOnSelect expand="lg" style={Styles} data-bs-theme="dark">
       <Container>
@@ -23,7 +24,7 @@ const NavbarC = () => {
             <NavDropdown title="Tentang Kami" id="collapsible-nav-dropdown">
               <NavDropdown.Item as={Link} to="/about">About Architech</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/about">Contact US</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/kontak">Contact US</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/layanan">Layanan</Nav.Link>
             <NavDropdown title="Portofolio" id="collapsible-nav-dropdown">
@@ -42,8 +43,12 @@ const NavbarC = () => {
           </Nav>
           <Nav style={{gap:'5px'}}>
             <hr />
-            <Button as={Link} to='/sign' type="submit" variant='outline-light'>Daftar</Button>
-            <Button as={Link} to='/login' type="submit" variant='secondary' style={{backgroundColor:'#B1907F'}}>Masuk</Button>
+            <NavDropdown title={<FontAwesomeIcon className='mx-3 p-2 rounded-5' style={{backgroundColor:'#d5b599',width:'28px',height:'28px',color:'#B1907F'}} icon={faUser}/>} id="collapsible-nav-dropdown">
+              <NavDropdown.Item as={Link} to="/profil">Profil Saya</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/edit">Edit Profile</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item as={Link} to="/login">logout</NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -51,4 +56,4 @@ const NavbarC = () => {
   );
 }
 
-export default NavbarC;
+export default NavbarCLogin;
